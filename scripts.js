@@ -1,4 +1,4 @@
-const CONFIG={owner:"mitchrsmitc",repo:"your-username.github.io",branch:"main",manifest:"scripts/manifest.json"};
+const CONFIG={owner:"mitchrsmitc",repo:"script-nexus",branch:"main",manifest:"scripts/manifest.json"};
 let scripts=[],active="All",selected=null;const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s);
 $("#githubLink").href=`https://github.com/${CONFIG.owner}/${CONFIG.repo}`;$("#owner").value=CONFIG.owner;$("#repo").value=CONFIG.repo;
 async function loadLibrary(){try{const r=await fetch(`${CONFIG.manifest}?v=${Date.now()}`);if(!r.ok)throw Error("manifest unavailable");scripts=await r.json()}catch(e){scripts=[]}renderFilters();render()}
