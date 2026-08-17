@@ -14,5 +14,13 @@
     "language": "Python",
     "category": "Diagnostics",
     "path": "scripts/diagnostics/dns-health.py"
+  },
+  {
+    "id": "1786953714586-ad-group-sync",
+    "title": "AD Group Sync",
+    "description": "Used to copy AD Groups from one user to another.",
+    "language": "PowerShell",
+    "category": "Active Directory",
+    "path": "scripts/active-directory/AD_Group_Sync.ps1"
   }
 ]
