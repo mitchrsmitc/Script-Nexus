@@ -1,0 +1,18 @@
+[
+  {
+    "id": "subnet-sweep",
+    "title": "Subnet Sweep",
+    "description": "Fast host discovery for a target subnet with readable output.",
+    "language": "PowerShell",
+    "category": "Networking",
+    "path": "scripts/networking/subnet-sweep.ps1"
+  },
+  {
+    "id": "dns-health",
+    "title": "DNS Health Check",
+    "description": "Checks name resolution and reports DNS lookup timing.",
+    "language": "Python",
+    "category": "Diagnostics",
+    "path": "scripts/diagnostics/dns-health.py"
+  }
+]
