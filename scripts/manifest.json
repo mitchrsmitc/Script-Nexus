@@ -22,5 +22,13 @@
     "language": "PowerShell",
     "category": "Active Directory",
     "path": "scripts/active-directory/AD_Group_Sync.ps1"
+  },
+  {
+    "id": "1787123911613-device-name-to-object-id",
+    "title": "Device Name to Object ID",
+    "description": "Converts the DeviceName field of an Intune device to ObjectID",
+    "language": "PowerShell",
+    "category": "Intune",
+    "path": "scripts/intune/Intune_DeviceName_to_ObjectId.ps1"
   }
 ]
