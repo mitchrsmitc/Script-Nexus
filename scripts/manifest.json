@@ -30,5 +30,13 @@
     "language": "PowerShell",
     "category": "Intune",
     "path": "scripts/intune/Intune_DeviceName_to_ObjectId.ps1"
+  },
+  {
+    "id": "1787125374597-shared-inbox-scan",
+    "title": "Shared Inbox Scan",
+    "description": "Scan shared mailboxes assigned to an M365 user.",
+    "language": "PowerShell",
+    "category": "Microsoft Exchange",
+    "path": "scripts/microsoft-exchange/Exchange_Shared_Inbox_Scan.ps1"
   }
 ]
