@@ -38,5 +38,13 @@
     "language": "PowerShell",
     "category": "Microsoft Exchange",
     "path": "scripts/microsoft-exchange/Exchange_Shared_Inbox_Scan.ps1"
+  },
+  {
+    "id": "1791259170736-get-apps-available-install",
+    "title": "Get Apps - Available Install",
+    "description": "Check Intune and report apps that are set for install available",
+    "language": "PowerShell",
+    "category": "Intune",
+    "path": "scripts/intune/Intune_GetAppsAvailableInstall.ps1"
   }
 ]
